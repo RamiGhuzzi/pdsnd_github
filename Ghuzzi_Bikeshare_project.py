@@ -219,6 +219,7 @@ def main():
 
         except KeyboardInterrupt:
             sys.exit("\nProgram terminated by user.")
+        # Error Handling
         except Exception as e:
             print(f"\nAn error occurred: {e}")
             print("Restarting the program...\n")
