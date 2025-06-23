@@ -18,9 +18,11 @@ the script used in this project, in addition to the _.csv_ file that contains th
    * Pandas
    * NumPy
    * Datetime
+   * sys
+   * calender
 ### Key feature
-Handles raw CSV data, processes missing values, and ensures accurate calculations.
-Implements input validation for a seamless user experience.
-Error Handling (e.g., Execution error, Invalid input error, etc.)
+**Handles raw CSV data**, processes missing values, and ensures accurate calculations.
+Implements **input validation** for a seamless user experience.
+**Error Handling** (e.g., Execution error, Invalid input error, etc.)
 ### Credits
 This templates was forked by Udacity from [here](https://github.com/udacity/pdsnd_github)
