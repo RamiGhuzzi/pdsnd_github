@@ -10,7 +10,7 @@ CITY_DATA = {
     'new york': 'new_york_city.csv',
     'washington': 'washington.csv' }
 
-def get_filters():
+def CMD_Data():
     """
     Asks user to specify a city, month, and day to analyze with robust input handling.
     Allows exiting at any prompt.
@@ -194,9 +194,9 @@ def user_stats(df):
 def main():
     while True:
         try:
-            city, month, day = get_filters()
+            city, month, day = CMD_Data()
             df = load_data(city, month, day)
-            #clean data
+            #Clean data by dropping the null values
             df.dropna(inplace=True) 
             time_stats(df)
             station_stats(df)
