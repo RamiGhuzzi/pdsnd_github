@@ -1,4 +1,2 @@
 .github/**
-datasets/chicago.csv
-datasets/new_york_city.csv
-datasets/washington.csv
+*.csv
